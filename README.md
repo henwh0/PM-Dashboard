@@ -7,7 +7,7 @@
 
 
 
-[readme.md](https://github.com/user-attachments/files/34607012/readme.md)
+
 
 ```text
 
@@ -24,4 +24,9 @@ Python
         ├── Current Prices
         └── Portfolio Value
 
-            
+Dependencies include:
+      streamlit
+      sqlite3
+      pandas
+      API key from: https://www.goldapi.io/
+      (requires an account, I used a throwaway email just cause. Get UP TO 100 free API calls per month.) Plug API key into a .env with variable named API_KEY
