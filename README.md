@@ -30,3 +30,5 @@ Dependencies include:
       pandas
       API key from: https://www.goldapi.io/
       (requires an account, I used a throwaway email just cause. Get UP TO 100 free API calls per month.) Plug API key into a .env with variable named API_KEY
+
+I run this DB as a systemd service and use a timer to grab gold and silver spot price once per day at EOD. Only runs Mon-Fri and caches spot prices to use over weekend for consistency. 
